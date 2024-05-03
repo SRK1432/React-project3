@@ -1,0 +1,25 @@
+/* ErrorModal.css */
+
+.error-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    z-index: 100;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .error-modal__header {
+    margin-top: 0;
+  }
+  
+  .error-modal__content {
+    margin: 10px 0;
+  }
+  
+  .error-modal__footer {
+    margin-top: 10px;
+  }

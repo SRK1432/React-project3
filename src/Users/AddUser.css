@@ -1,0 +1,82 @@
+/* 
+.container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+  }
+  
+  .user-age {
+    align-items: center;
+    display: block;
+    margin-left: 30%;
+    margin-top: 30px;
+    background-color: skyblue;
+    height: auto;
+    text-align: center; 
+    width: 40%;
+    padding: 10px;
+  }
+  .add-user-button {
+    background-color:pink;
+  }
+  
+   */
+
+   .add-user-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height to center vertically */
+    background-color: #ae5d5d; /* Background color for the container */
+  }
+   .add-user {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+  }
+  
+  .add-user-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px; /* Space between form groups */
+  }
+  
+  .add-user-form label {
+    font-weight: bold; /* Bold labels */
+  }
+  
+  .input-text,
+  .input-number {
+    padding: 10px; /* Padding for inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    width: 100%; /* Full width */
+  }
+  
+  .input-text:focus,
+  .input-number:focus {
+    outline: none;
+    border-color: #007bff; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Blue shadow on focus */
+  }
+  
+  .add-user-button {
+    font: inherit;
+    padding: 10px 20px; /* Padding for the button */
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth hover transition */
+  }
+  
+  .add-user-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  

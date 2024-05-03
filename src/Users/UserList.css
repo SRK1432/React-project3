@@ -1,0 +1,25 @@
+/* user-list{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+   
+} */
+
+.user-list-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  margin-top: 20px; /* Space between AddUser and UserList */
+}
+.user-list {
+  padding: 10px;
+  background-color: #f1f1f1; /* Light gray background */
+  border-radius: 5px; /* Rounded corners */
+  margin-top: 20px; /* Space from top */
+}
+
+.user-list-ul {
+  list-style-type: none; /* No default list style */
+  padding: 0; /* Remove default padding */
+}
+
+
